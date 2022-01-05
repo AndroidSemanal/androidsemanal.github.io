@@ -1,0 +1,24 @@
+body {
+    font-size: 20px;
+}
+
+:root {
+    --primary: rgb(3,72,103);
+    --tertiary: rgb(61,220,132);
+    --quaternary: rgb(245,100,42)
+}
+
+.dark {
+    --primary: rgb(61,220,132);
+    --tertiary: rgb(3,72,103);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--quaternary);
+}
