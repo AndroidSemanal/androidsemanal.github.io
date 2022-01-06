@@ -5,7 +5,7 @@ body {
 :root {
     --primary: rgb(3,72,103);
     --tertiary: rgb(61,220,132);
-    --quaternary: rgb(245,100,42)
+    --quaternary: rgb(245,100,42);
 }
 
 .dark {
@@ -21,4 +21,36 @@ h4,
 h5,
 h6 {
     color: var(--quaternary);
+}
+
+._form {
+    max-width: 600px;
+    margin: 20px auto 0 auto;
+    border: 1px var(--secondary) solid;
+    padding: 30px;
+    background: var(--entry);
+}
+
+._form input[type=text] {
+    padding: 10px;
+    margin-bottom: 20px;
+    background: var(--code-bg);
+    border: 1px var(--secondary) solid;
+    border-radius: 4px;
+    color: var(--content);
+    width: 100%;
+}
+
+._form button {
+    padding: 10px 10px;
+    background: var(--primary);
+    border-radius: 4px;
+    color: var(--entry);
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+._form button:hover {
+    background: var(--quaternary);
 }
